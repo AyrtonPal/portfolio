@@ -1,7 +1,9 @@
+import { ContainerAboutMe } from "./styles";
+
 export const AboutMe = () => {
   return (
-    <div>
-      <p>Sobre mi</p>
-    </div>
+    <ContainerAboutMe>
+      <></>
+    </ContainerAboutMe>
   );
 };

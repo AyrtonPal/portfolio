@@ -1,3 +1,5 @@
 import { styled } from "styled-components";
 
-export const Container = styled.div``;
+export const ContainerAboutMe = styled.div`
+  padding: 1rem;
+`;
