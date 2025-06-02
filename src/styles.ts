@@ -12,13 +12,14 @@ export const GlobalStyle = createGlobalStyle`
 export const ContainerApp = styled.div`
   background-color: ${COLORS.primary};
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 `;
 
 // ---------------------------------------------------------
 
-
 export const ContainerTopBar = styled.div`
-  background-color: ${COLORS.terciary};
+  background-color: ${COLORS.secondary};
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 4rem;
