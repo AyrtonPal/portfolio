@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import { AboutMe, Contact, Experience } from "./features";
+import { AboutMe, Contact, Experience, Knowledge } from "./features";
 import { ContainerApp, GlobalStyle } from "./styles";
+import { Navbar } from "./components";
 
 export default function App() {
   return (
@@ -12,6 +12,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<AboutMe />} />
           <Route path="/experiencia" element={<Experience />} />
+          <Route path="/knowledge" element={<Knowledge />} />
           <Route path="/contacto" element={<Contact />} />
         </Routes>
       </ContainerApp>

@@ -1,7 +1,10 @@
+import { Carousel } from "../../components";
+import { ContainerExperience } from "./styles";
+
 export const Experience = () => {
   return (
-    <div>
-      <p>Experiencia</p>
-    </div>
+    <ContainerExperience>
+      <Carousel />
+    </ContainerExperience>
   );
 };

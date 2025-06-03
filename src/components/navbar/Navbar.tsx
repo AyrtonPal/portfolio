@@ -1,18 +1,19 @@
 import { useNavigate } from "react-router-dom";
 import {
-  ButtonBar,
-  ContainerInitials,
   ContainerTopBar,
-  Initials,
   MaxContainerButtons,
-  MaxContainerInitials,
+  ButtonBar,
   TextButton,
-} from "../styles";
+  MaxContainerInitials,
+  ContainerInitials,
+  Initials,
+} from "./styles";
 
 const Navbar = () => {
   const ButtonMap = [
     { text: "Sobre Mi", nav: "/" },
     { text: "Experiencia", nav: "/experiencia" },
+    { text: "Conocimientos", nav: "/knowledge" },
     { text: "Contacto", nav: "/contacto" },
   ];
 
